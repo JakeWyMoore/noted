@@ -300,6 +300,10 @@ let deleteTasksFromList = (_listId) => {
     });
 }
 
+app.all("*", (req,res,next) => {
+    res.sendFile(path.resolve("../frontend/dist/index.html"))
+});
+
 app.listen(3000, () => {
     console.log('Server listening on port 3000')
 });
