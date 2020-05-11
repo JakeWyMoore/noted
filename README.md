@@ -16,7 +16,7 @@ Noted is a MEAN application built for users to create tasks and sub lists within
 <li>ng build</li>
 <li>cd -</li>
 <li>cd api</li>
-<li>nodeom app.js</li>
+<li>nodemon app.js</li>
 
 
 
